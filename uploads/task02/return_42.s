@@ -2,6 +2,7 @@ global _start
 
 section .text
 _start:
+    mov ebx, 42
+    
     mov eax, 1
-    mov ebx, 42        ; Store 42 in AX (16-bit register)
     int 0x80
